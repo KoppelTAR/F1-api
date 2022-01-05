@@ -4,16 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <title>F1</title>
 </head>
 <body>
-    <h1 class="DriverId">Id : </h1>
-    <p class="Code">Code : </p>
-    <p class="PermanentNumber">Permanent Number : </p>
-    <p class="GivenName">First Name : </p>
-    <p class="FamilyName">Family Name : </p>
-    <p class="DateOfBirth">Date Of Birth : </p>
-    <p class="Nationality">Nationality : </p>
+    <div class="text-center">
+        <select id="locality-dropdown">
+            <option selected>Open this select menu</option>
+            <option value="1">.One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+        </select>
+        <div class="text-center">
+            <button type="button" class="btn btn-primary btn-md mt-2" id="button">Search</button>
+        </div>
+    
+        <h1 class="DriverId">Id : </h1>
+        <p class="Code">Code : </p>
+        <p class="PermanentNumber">Permanent Number : </p>
+        <p class="GivenName">First Name : </p>
+        <p class="FamilyName">Family Name : </p>
+        <p class="DateOfBirth">Date Of Birth : </p>
+        <p class="Nationality">Nationality : </p>
+    </div>
     <script src="javascript/app.js"></script>
 </body>
 </html>
