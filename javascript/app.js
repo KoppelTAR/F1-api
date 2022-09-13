@@ -44,7 +44,6 @@ fetch(url)
     	for (let i = 0; i < data.length; i++) {
         console.log((xml.getElementsByTagName("Driver")[i].getAttribute("driverId")));
         if (!xml.getElementsByTagName("Driver")[i].getAttribute("code")) {
-          i = i+1
         }
         else{
           option = document.createElement('option');
